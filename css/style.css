@@ -2,16 +2,15 @@
 #6FEDD6
 #FF9551
 #FF4A4A */
-
-a{
-  color:#11999E;
+a {
+  color: #11999E;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
-a:hover{
-  color:#EAF6F6;
+a:hover {
+  color: #EAF6F6;
 }
 
 body {
@@ -94,8 +93,6 @@ body {
 }
 
 div {}
-
-
 
 hr {
   border: dotted #000000 6px;
