@@ -1,0 +1,163 @@
+/* #B9FFF8
+#6FEDD6
+#FF9551
+#FF4A4A */
+
+a{
+  color:#11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+body {
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  height: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  /* for making its position absolute atleast one of the parent should have its position set to relative */
+  left: 300px;
+  bottom: 300px;
+}
+
+.coding {
+  float: left;
+  margin-right: 30px;
+}
+
+.coding-skill-description {
+  clear: left;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0 10px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.drawing {
+  float: right;
+  margin-left: 30px;
+}
+
+.drawing-skill-description {
+  clear: right;
+}
+
+div {}
+
+
+
+hr {
+  border: dotted #000000 6px;
+  width: 4%;
+  border-top: 5px;
+  border-left: 0;
+  border-right: 0;
+  border-width: 5px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #66BFBF;
+  /* because 100% means 16px */
+  /* also 1em also equals 16px but if set body font size to 2em and element size to 5em then we will see overall 7em size */
+  /* sometimes we dont want that, so we can write 5rem ie root em */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+p {
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  margin: 10px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
